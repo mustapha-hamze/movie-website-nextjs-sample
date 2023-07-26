@@ -8,7 +8,8 @@ async function getTrendingMovies() {
     method: "GET",
     headers: {
       accept: "application/json",
-      Authorization: process.env.API_TOKEN as string,
+      Authorization:
+        "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhMDZjNTkxYzFjMTE5MTVhZmQ1YTllZjYyOTQxYTQ4MCIsInN1YiI6IjY0YmE2NmRiYWI2ODQ5MDBmZjRhNWZiOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Knircj_CKz9gzwV9HCWyvVAZ6uMRRqW37DjtfH6sbF4",
     },
     next: {
       revalidate: 60,
