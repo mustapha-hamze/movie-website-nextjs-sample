@@ -1,1 +1,1 @@
-self.__RSC_SERVER_MANIFEST="{\n  \"node\": {},\n  \"edge\": {}\n}"
+self.__RSC_SERVER_MANIFEST="{\"node\":{\"f05ca112a5fcfe5cd333e386367188d97cc42f20\":{\"workers\":{\"app/movies/[id]/page\":264},\"layer\":{\"app/movies/[id]/page\":\"rsc\"}}},\"edge\":{}}"
